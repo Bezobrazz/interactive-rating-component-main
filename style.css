@@ -69,11 +69,15 @@ main {
   align-items: center;
   margin-bottom: 25px;
 }
-.card__number:hover {
+.card__number-hover {
   background-color: hsl(217, 12%, 63%);
   color: #fff;
 }
-.card__number-active {
+/* .card__number:active {
+  background-color: rgb(253, 140, 1);
+  color: #fff;
+} */
+.active {
   background-color: rgb(253, 140, 1);
   color: #fff;
 }
