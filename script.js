@@ -1,5 +1,6 @@
 "use strict";
 
+const cardWrapper = document.querySelector(".card__wrapper");
 const ratingContainer = document.querySelector(".card__numbers");
 console.log(ratingContainer);
 const ratingNumbers = document.querySelectorAll(".card__number");
@@ -34,5 +35,6 @@ ratingNumbers.forEach((number) =>
 
 submitBtn.addEventListener("click", function () {
   thankYouCard.style.display = "block";
+  cardWrapper.style.display = "none";
   console.log(thankYouCard);
 });

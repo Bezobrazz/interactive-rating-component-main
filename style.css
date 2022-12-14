@@ -102,8 +102,6 @@ main {
 .thankyou__wrapper {
   padding-top: 30px;
   display: none;
-  position: absolute;
-  top: 0;
 }
 .thankyou__img {
   display: flex;
