@@ -14,6 +14,7 @@ main {
 }
 
 .container {
+  position: relative;
   max-width: 1200px;
   padding: 0 20px;
   margin: 0 auto;
@@ -95,4 +96,36 @@ main {
 .card__btn:hover {
   background-color: #fff;
   color: rgb(253, 140, 1);
+}
+
+/* Thank you card */
+.thankyou__wrapper {
+  padding-top: 30px;
+  display: none;
+  position: absolute;
+  top: 0;
+}
+.thankyou__img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.thankyou__selected {
+  margin: 0 auto;
+  width: 200px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: hsl(213, 19%, 15%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.thankyou__selected-text {
+  color: rgb(253, 140, 1);
+  font-size: 13px;
+}
+.thankyou__title,
+.thankyou__descr {
+  text-align: center;
 }
