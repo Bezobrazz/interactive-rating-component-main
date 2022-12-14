@@ -73,14 +73,12 @@ main {
 .card__number-hover {
   background-color: hsl(217, 12%, 63%);
   color: #fff;
+  transition: all 0.4s;
 }
-/* .card__number:active {
-  background-color: rgb(253, 140, 1);
-  color: #fff;
-} */
 .active {
   background-color: rgb(253, 140, 1);
   color: #fff;
+  transition: all 0.4s;
 }
 .card__btn {
   border: none;
@@ -96,6 +94,7 @@ main {
 .card__btn:hover {
   background-color: #fff;
   color: rgb(253, 140, 1);
+  transition: all 0.4s;
 }
 
 /* Thank you card */
